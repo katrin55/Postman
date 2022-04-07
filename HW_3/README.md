@@ -131,9 +131,11 @@ auth_token
 ```
 #### Responce:
 ```
-{'name': name,  
-  'age': int (age),  
-  'salary': [salary, str(salary*2), str(salary*3)]}
+{
+'name': name,  
+'age': int (age),  
+'salary': [salary, str(salary*2), str(salary*3)]
+}
 ```
 #### Тесты:
 - Статус код 200
@@ -202,10 +204,12 @@ auth_token
 ```
 #### Responce:
 ```
-{'name': name,  
- 'age': age,  
- 'daily_food':weight * 0.012,  
- 'daily_sleep': weight * 2.5}
+{
+'name': name,  
+'age': age,  
+'daily_food':weight * 0.012,  
+'daily_sleep': weight * 2.5
+}
 ```
 #### Тесты
 - Статус код 200
@@ -261,12 +265,13 @@ auth_token
 ```
 #### Response: 
 ```
-{'name': name,  
- 'age':age,  
- 'salary': salary,  
- 'family': {'children':[['Alex', 24],['Kate', 12]],  
- 'u_salary_1.5_year': salary * 4}
-  }
+{
+'name': name,  
+'age':age,  
+'salary': salary,  
+'family': {'children':[['Alex', 24],['Kate', 12]],  
+'u_salary_1.5_year': salary * 4}
+}
 ```
 #### Тесты:
 - Статус код 200
